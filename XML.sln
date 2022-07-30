@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSLT", "XSLT\XSLT.csproj", "{E51CE663-7173-4BFF-8CF0-F2E2DB2E783F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{5273ADA3-6D3C-4460-9556-DADEAA2B65DB}"
+	ProjectSection(SolutionItems) = preProject
+		Document\XSLT.txt = Document\XSLT.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E51CE663-7173-4BFF-8CF0-F2E2DB2E783F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E51CE663-7173-4BFF-8CF0-F2E2DB2E783F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E51CE663-7173-4BFF-8CF0-F2E2DB2E783F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E51CE663-7173-4BFF-8CF0-F2E2DB2E783F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

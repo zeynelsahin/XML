@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "/mDH0tvOIZUNyv0VFIudW3Bri4nX9NZcMVLfBmS/DFM=",
+  "Source": "XSLT",
+  "BasePath": "_content/XSLT",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "XSLT\\wwwroot",
+      "Source": "XSLT",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XSLT\\XSLT\\wwwroot\\",
+      "BasePath": "_content/XSLT",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XSLT\\XSLT\\wwwroot\\Students.xml",
+      "SourceId": "XSLT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XSLT\\XSLT\\wwwroot\\",
+      "BasePath": "_content/XSLT",
+      "RelativePath": "Students.xml",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Students.xml"
+    },
+    {
+      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XSLT\\XSLT\\wwwroot\\Students.xsl",
+      "SourceId": "XSLT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XSLT\\XSLT\\wwwroot\\",
+      "BasePath": "_content/XSLT",
+      "RelativePath": "Students.xsl",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Students.xsl"
+    }
+  ]
+}

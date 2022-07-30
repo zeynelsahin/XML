@@ -1,0 +1,8 @@
+﻿XSL =>  eXtensible Stylesheet Language
+
+XSL ia a styling language for XML
+---------------------------------------
+XSLT => stands for XSL Transformations
+
+XSLT is used to transform XML documents into other formats like HTML
+
