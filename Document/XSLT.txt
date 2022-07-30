@@ -5,4 +5,7 @@ XSL ia a styling language for XML
 XSLT => stands for XSL Transformations
 
 XSLT is used to transform XML documents into other formats like HTML
-
+---------------------------------------
+XPATH is query language for navigating in XML documents
+To find nodes in XML document or element in HTML web page
+---------------------------------------

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/mDH0tvOIZUNyv0VFIudW3Bri4nX9NZcMVLfBmS/DFM=",
+  "Hash": "PSDqOnmpZWCllqjmx3tRMNqy/zcm9ESjvO18QcU1LxE=",
   "Source": "XSLT",
   "BasePath": "_content/XSLT",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "XSLT\\wwwroot",
       "Source": "XSLT",
-      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XSLT\\XSLT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XSLT\\wwwroot\\",
       "BasePath": "_content/XSLT",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XSLT\\XSLT\\wwwroot\\Students.xml",
+      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XSLT\\wwwroot\\Students.xml",
       "SourceId": "XSLT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XSLT\\XSLT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XSLT\\wwwroot\\",
       "BasePath": "_content/XSLT",
       "RelativePath": "Students.xml",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\Students.xml"
     },
     {
-      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XSLT\\XSLT\\wwwroot\\Students.xsl",
+      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XSLT\\wwwroot\\Students.xsl",
       "SourceId": "XSLT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XSLT\\XSLT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XSLT\\wwwroot\\",
       "BasePath": "_content/XSLT",
       "RelativePath": "Students.xsl",
       "AssetKind": "All",
