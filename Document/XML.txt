@@ -1,0 +1,35 @@
+﻿XML => 
+Veri iletişimini standart hale getirmek için tasarlanan işaretleme dilidir.
+W3C tafından tasarlanan bir veri iletişim standardıdır.
+Okunurluğu kolaydır
+Web siteleri için site haritası oluşturmak, yazılım paketleri içerisindeki bağımlılıkların tanımlanması vb. için kullanılır.
+Büyük küçük harf duyarlıdır.
+
+Syntax Rules
+----------
+&lt; less than <
+&gt; greater than >
+&amp; ampersand &
+&apos; apostrophe '
+&quot; qoutation mark "
+----------
+
+Yorum Satırı  <!-- -->
+
+HTML gibi white space (boşluk) ları kesmez
+
+Node isimlendirmleri
+--------
+Alt çizgi veya harf ile başlamalıdır.
+Xml ile başlamayamaz
+boşluk içeremez
+--------- 
+
+Attribute =>
+-------------
+Çift tırnak içinde çift tırnak kullanmak isteniliyorsa dış çift tırnak tek tırnak olarak kullanılabilir
+Veya özel çift tırnak keywordu &quot; kullanılmalıdır.
+
+------
+
+Aynı node ismine sahip ama farklı içerkler bulunan nodlar d:nodeismi gibi namespace kullanılarnılarak ayrılır

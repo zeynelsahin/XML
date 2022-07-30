@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "kwMlCDhNt9gmpvps9qd+SqvnidGcB/1rlUKkEdpCxoU=",
+  "Source": "XML",
+  "BasePath": "_content/XML",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "XML\\wwwroot",
+      "Source": "XML",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XML\\wwwroot\\",
+      "BasePath": "_content/XML",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XML\\wwwroot\\main.css",
+      "SourceId": "XML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XML\\wwwroot\\",
+      "BasePath": "_content/XML",
+      "RelativePath": "main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\main.css"
+    },
+    {
+      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XML\\wwwroot\\Students.xml",
+      "SourceId": "XML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XML\\wwwroot\\",
+      "BasePath": "_content/XML",
+      "RelativePath": "Students.xml",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Students.xml"
+    }
+  ]
+}
