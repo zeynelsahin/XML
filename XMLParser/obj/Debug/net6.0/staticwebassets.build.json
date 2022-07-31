@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "QjfO5z3KEMM8Czeg+7s9zuXqiLHEBAnqtUWClxFPjhM=",
+  "Source": "XMLParser",
+  "BasePath": "_content/XMLParser",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "XMLParser\\wwwroot",
+      "Source": "XMLParser",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XMLParser\\wwwroot\\",
+      "BasePath": "_content/XMLParser",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XMLParser\\wwwroot\\example.html",
+      "SourceId": "XMLParser",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XMLParser\\wwwroot\\",
+      "BasePath": "_content/XMLParser",
+      "RelativePath": "example.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\example.html"
+    },
+    {
+      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XMLParser\\wwwroot\\index.html",
+      "SourceId": "XMLParser",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XMLParser\\wwwroot\\",
+      "BasePath": "_content/XMLParser",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XMLParser\\wwwroot\\Students.xml",
+      "SourceId": "XMLParser",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XMLParser\\wwwroot\\",
+      "BasePath": "_content/XMLParser",
+      "RelativePath": "Students.xml",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Students.xml"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XML Parser</title>
+</head>
+<body>
+<p id="result"></p>
+<script>
+    var xmlParser, xmlDoc;
+    var text = "<students><student> <id>1</id><name>Zeynel</name><lastname>Şahin</lastname></student></students>";
+    xmlParser= new DOMParser();
+    xmlDoc = xmlParser.parseFromString(text, "text/html");
+    document.querySelector("#result").innerHTML = xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XML Parser Example</title>
+</head>
+<body>
+<button type="button" onclick="xmlDocLoad()">Get</button>
+<p id="result"></p>
+<script>
+    function stundets(xmlHttpRequest) {
+        var x, i, xmlDoc, txt = "";
+        xmlDoc = xmlHttpRequest.responseXML;
+        x = xmlDoc.getElementsByTagName("firstname");
+        for (var i = 0; i < x.length; i++) {
+            txt += x[i].childNodes[0].nodeValue + "<br>";
+        }
+        document.querySelector("#result").innerHTML = txt;
+    }
+
+    function xmlDocLoad() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState === 4 && this.status === 200) {
+                stundets(this);
+            }
+        };
+        xhttp.open("GET", "Students.xml", true);
+        console.log("asadasd");
+        xhttp.send();
+    }
+</script>
+</body>
+</html>

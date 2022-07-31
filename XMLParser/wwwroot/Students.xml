@@ -1,0 +1,21 @@
+﻿<?xml-stylesheet type="text/xsl" href="Students.xsl"?>
+<students>
+    <student>
+        <id>1</id>
+        <firstname>Zeynel</firstname>
+        <lastname>Sahin</lastname>
+        <nickname>zeynelshn</nickname>
+    </student>
+    <student>
+        <id>2</id>
+        <firstname>Muharrem</firstname>
+        <lastname>Sahin</lastname>
+        <nickname>zeynelshn</nickname>
+    </student>
+    <student>
+        <id>3</id>
+        <firstname>Deneme</firstname>
+        <lastname>Sahin</lastname>
+        <nickname>zeynelshn</nickname>
+    </student>
+</students>

@@ -34,4 +34,17 @@ Veya özel çift tırnak keywordu &quot; kullanılmalıdır.
 
 Aynı node ismine sahip ama farklı içerkler bulunan nodlar d:nodeismi gibi namespace kullanılarnılarak ayrılır
 
+XML Parser=>
+Tarayıcılarda Xml'e erişmek ve onu işlemek için dahili bir XML ayrıştırıcı vardır.
+XML DOM XML'ye erişmek ve düzenlemek için özellikleri ve yöntemleri tanmlar.
+XML belgesine erişebilmek için XML DOM nesnesine yüklenmelidir.
+Aynı şekilde metni XML DOM nesnesine dönüşerebilen dadhili bir XML ayrıştıcı bulunur.
 
+XMLHttpRequest Object=>
+Dahili XML ayrıştırıcıya sahiptir
+ResponseText metin dizesi döndürür.
+ReponseXML XML DOM nesnesi olarak döndürür.
+
+DOM=>
+Dokünlara erişmek ve dokümanları değiştirmek için bir standart belirler
+XML DOM,HTML DOM belgelelirini ağaç yapııs olarak sunar.Her birini nesne olarak oluşturur.
