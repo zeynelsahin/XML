@@ -48,3 +48,18 @@ ReponseXML XML DOM nesnesi olarak döndürür.
 DOM=>
 Dokünlara erişmek ve dokümanları değiştirmek için bir standart belirler
 XML DOM,HTML DOM belgelelirini ağaç yapııs olarak sunar.Her birini nesne olarak oluşturur.
+
+XPath=>
+XML belgesindeki öğeler ve nitelikler arasından gezinmek için kullanılabilir.
+XSL ve XQuery de sıklıkla kullanılır.
+
+/students/student[1] ilk öğrenciyi getirir
+/students/student[last()] son öğrenciyi getirir
+/students/student[last()-1] son fakat bir öğrenci getirir
+/students/student[position()<3] İlk 2 öğrenciyi getirir
+//fistname[@lang] lang adlı attribute taşıyan tüm isimleri getirir
+//fistname[@lang="tr"] lang adlı attributtun değeri 'tr' olanların isimleri getirir
+/students/student[id>2] idsi 2 den büyük olan öğrencileri getirir
+/students/student[id>2]/firstname idsi 2 den büyük olan öğrencileri isimlerini getirir
+
+
