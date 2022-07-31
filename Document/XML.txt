@@ -63,3 +63,8 @@ XSL ve XQuery de sıklıkla kullanılır.
 /students/student[id>2]/firstname idsi 2 den büyük olan öğrencileri isimlerini getirir
 
 
+XSLT=>
+XSLT ile XML belgelerini HTML'ye dönüştürebiliriz
+XSLT CSS den çok daha sofstike. XSLT ile çıktı dosyalarına elemanlar ve nitelikler ekleyebilir kaldırabilirsiniz. Ayrıca öğeleri yenide düzenleyebilir ve sıralayabilir testler gerçekleştirelir ve hangi öğrelerin gizleneceği ve görüntüleneceğini konusunda karaklar alabilir ve daha bir çok şey yapabilirsiniz
+XSLT, XML belegsindeki bilgileri bulmak için XPath kullanır 
+
