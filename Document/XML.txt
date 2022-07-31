@@ -68,3 +68,21 @@ XSLT ile XML belgelerini HTML'ye dönüştürebiliriz
 XSLT CSS den çok daha sofstike. XSLT ile çıktı dosyalarına elemanlar ve nitelikler ekleyebilir kaldırabilirsiniz. Ayrıca öğeleri yenide düzenleyebilir ve sıralayabilir testler gerçekleştirelir ve hangi öğrelerin gizleneceği ve görüntüleneceğini konusunda karaklar alabilir ve daha bir çok şey yapabilirsiniz
 XSLT, XML belegsindeki bilgileri bulmak için XPath kullanır 
 
+XQuery=> 
+XML verilerini sorğulamak için tasarlanmıştır
+XML ile XQuery veritabanları için SQL gibid
+XQuery XPath ifadeleri üzerine inşa edilmiştir
+XQuery çoğu veritabanı tarafından desteklenmektedir
+for$x in doc("Students.xml")/class/student
+where $x/id>10
+order by $x/firstname
+return½ $/firstname
+
+XLink=>
+XML belgelerinde linkler oluşturmak için kullanılır.
+Bir XML belgesindeki herhabgi bir element bir bağlantı olabilir
+XML belgelerinde XLink için hiçbir tarayıcı desteği yoktur. Bunula birlikte tüm büyük tarayıcılar XLinkleri SVG de desteklemektedir.
+
+XPointer=>
+Bağlantıların bir XML belgesinin belirli bölümlerinin işaret etmesini sağlar
+XML belgesinde gezimek için XPath ifadelerini kullanır
