@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{52
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XML_CSS", "XML_CSS\XML_CSS.csproj", "{C1DEE19C-646B-4B16-A000-BA8F6F1E2768}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLHtpRequest", "XMLHtpRequest\XMLHtpRequest.csproj", "{6A4E3E52-9B0E-4495-81BE-1D58D11560B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{C1DEE19C-646B-4B16-A000-BA8F6F1E2768}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1DEE19C-646B-4B16-A000-BA8F6F1E2768}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1DEE19C-646B-4B16-A000-BA8F6F1E2768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4E3E52-9B0E-4495-81BE-1D58D11560B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4E3E52-9B0E-4495-81BE-1D58D11560B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4E3E52-9B0E-4495-81BE-1D58D11560B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4E3E52-9B0E-4495-81BE-1D58D11560B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

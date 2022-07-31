@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "yArFSYnsV0VaLQQmrC81VytcMAjr8LqFOnKDxE+0R9o=",
+  "Source": "XMLHtpRequest",
+  "BasePath": "_content/XMLHtpRequest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "XMLHtpRequest\\wwwroot",
+      "Source": "XMLHtpRequest",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XMLHtpRequest\\wwwroot\\",
+      "BasePath": "_content/XMLHtpRequest",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XMLHtpRequest\\wwwroot\\index.html",
+      "SourceId": "XMLHtpRequest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XMLHtpRequest\\wwwroot\\",
+      "BasePath": "_content/XMLHtpRequest",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
