@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yArFSYnsV0VaLQQmrC81VytcMAjr8LqFOnKDxE+0R9o=",
+  "Hash": "KNlKSLQD9Nv+bJYg7sg2suTttDc7zS/zjuQYMjXPcX8=",
   "Source": "XMLHtpRequest",
   "BasePath": "_content/XMLHtpRequest",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XMLHtpRequest\\wwwroot\\info.txt",
+      "SourceId": "XMLHtpRequest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XMLHtpRequest\\wwwroot\\",
+      "BasePath": "_content/XMLHtpRequest",
+      "RelativePath": "info.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\info.txt"
     }
   ]
 }

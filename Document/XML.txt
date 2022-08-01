@@ -86,3 +86,32 @@ XML belgelerinde XLink için hiçbir tarayıcı desteği yoktur. Bunula birlikte
 XPointer=>
 Bağlantıların bir XML belgesinin belirli bölümlerinin işaret etmesini sağlar
 XML belgesinde gezimek için XPath ifadelerini kullanır
+AJAX =>
+Asynchronous Javascript ve XML
+AJAX Anekron JavaScript ve XML birleşiminden gelir
+
+AJAX HOW TO WORK =>
+1.XMLHttpRequest nesnesi JavaScript tarafından oluşturulur.
+2.XMLHttpRequest nesnesi bir web sunucusuna bir istek gönderir
+3.Sunucu isteği işler ve yanıt gönderir.
+4.Yanıt JavaScript tarafından okunur.
+
+abort() Geçerli istei iptal eder
+
+getAllResponseHeaders() Başlık bilgilerini döndürür
+
+getResponseHeader() Belirli başlık bilgilerini döndürür
+
+opem(method,url,async,user,psw)=> 
+method:istek türü GET yada POST
+url=Donsya konumu
+async=true(asynchronous) yada false(synchronous)
+user=isteğe bağlı kullanıcı adı
+psw= isteğe bağlı şifre
+
+send() Talebi sunucuya gönderir GET istekleri için kullanılır
+
+send(string) Telebi sunucuya gönderir Post istekleri çin kullanılır
+
+setRequestHeader() Gonderilecek başlığa br etiket değer çifti ekler
+2 

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "AthXn17KH+zy3I3NJOi6HvVkmkknf3kfHoH8gK/sVJE=",
+  "Source": "AJAX",
+  "BasePath": "_content/AJAX",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AJAX\\wwwroot",
+      "Source": "AJAX",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\AJAX\\wwwroot\\",
+      "BasePath": "_content/AJAX",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\AJAX\\wwwroot\\Students.xml",
+      "SourceId": "AJAX",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\AJAX\\wwwroot\\",
+      "BasePath": "_content/AJAX",
+      "RelativePath": "Students.xml",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Students.xml"
+    }
+  ]
+}
