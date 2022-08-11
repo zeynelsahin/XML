@@ -1,27 +1,27 @@
 {
   "Version": 1,
-  "Hash": "kwMlCDhNt9gmpvps9qd+SqvnidGcB/1rlUKkEdpCxoU=",
-  "Source": "XML",
-  "BasePath": "_content/XML",
+  "Hash": "+3Ra4Dz9rO3bG+r9YtsrY8fkB+VNCPvMmveJ9VQOHVI=",
+  "Source": "XML_CSS",
+  "BasePath": "_content/XML_CSS",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "XML\\wwwroot",
-      "Source": "XML",
-      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XML\\wwwroot\\",
-      "BasePath": "_content/XML",
+      "Name": "XML_CSS\\wwwroot",
+      "Source": "XML_CSS",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XML_CSS\\wwwroot\\",
+      "BasePath": "_content/XML_CSS",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XML\\wwwroot\\main.css",
-      "SourceId": "XML",
+      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XML_CSS\\wwwroot\\main.css",
+      "SourceId": "XML_CSS",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XML\\wwwroot\\",
-      "BasePath": "_content/XML",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XML_CSS\\wwwroot\\",
+      "BasePath": "_content/XML_CSS",
       "RelativePath": "main.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -34,11 +34,11 @@
       "OriginalItemSpec": "wwwroot\\main.css"
     },
     {
-      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XML\\wwwroot\\Students.xml",
-      "SourceId": "XML",
+      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XML_CSS\\wwwroot\\Students.xml",
+      "SourceId": "XML_CSS",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XML\\wwwroot\\",
-      "BasePath": "_content/XML",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XML_CSS\\wwwroot\\",
+      "BasePath": "_content/XML_CSS",
       "RelativePath": "Students.xml",
       "AssetKind": "All",
       "AssetMode": "All",

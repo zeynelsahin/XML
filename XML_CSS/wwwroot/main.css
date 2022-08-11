@@ -1,10 +1,11 @@
 ﻿
-students{
+students {
     background-color: aqua;
-    padding:20px;
+    padding: 20px;
 }
-student{
-    color : blue;
+
+student {
+    color: blue;
     border: 1px solid white;
     display: block;
     margin: 25px;
@@ -13,7 +14,8 @@ student{
     text-align: center;
     background-color: antiquewhite;
 }
-student *{
+
+student * {
     display: block;
     border-bottom: 1px dashed white;
     padding: 15px;

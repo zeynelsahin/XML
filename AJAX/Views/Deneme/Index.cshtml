@@ -11,6 +11,7 @@
     <title>AJAX</title>
 </head>
 <body>
+
 <script>
 function loadDoc() {
   let xHttp= new XMLHttpRequest();
@@ -19,20 +20,21 @@ function loadDoc() {
      document.querySelector('#state').innerHTML="İstek başlatılamadı<br>";
      }
      else if (this.readyState===1){
-        document.querySelector('#state').innerHTML="Sunucuya bağlanıldı<br>";
+        document.querySelector('#state').innerHTML+="Sunucuya bağlanıldı<br>";
          }
      else if (this.readyState===2){
-        document.querySelector('#state').innerHTML="Sunucuya talebi aldı<br>";
+        document.querySelector('#state').innerHTML+="Sunucuya talebi aldı<br>";
         }
      else if (this.readyState===3){
-        document.querySelector('#state').innerHTML="Sunucuya talebi işliyor<br>";
+        document.querySelector('#state').innerHTML+="Sunucuya talebi işliyor<br>";
         }
      else if (this.status===404){
-        document.querySelector('#state').innerHTML="İşlem yapılamadı belgeniz yok ";
+        document.querySelector('#state').innerHTML+="İşlem yapılamadı belgeniz yok ";
         }
      else if (this.readyState===4&&this.status===200){
-        document.querySelector('#result').innerHTML=this.responseText;
+        document.querySelector('#result').innerHTML+=this.responseText;
         }
+     document.querySelector('#result').innerHTML+=this.getAllResponseHeaders();
      }
      xHttp.open("GET","/Students.xml",true);
      xHttp.send();

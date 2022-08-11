@@ -1,0 +1,46 @@
+﻿@model dynamic
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Table</title>
+</head>
+<body>
+<script>
+        function xmlLoad() {  
+          var xmlHttp= new XMLHttpRequest();
+          xmlHttp.onreadystatechange=function (){
+              if (this.readyState==4 && this.status==200){
+                  xmlList(this);
+                  }
+              };
+              xmlHttp.open("GET","../Students.xml",true);
+              xmlHttp.send();
+          }
+          function xmlList(xmlObject) {
+                      var i,x,xmlDoc,xmlTable;
+                      xmlDoc= xmlObject.responseXML;
+                      xmlTable="<tr><th>Id</th><th>First Name</th><th>Lastname</th><th>NickName</th></tr>"
+                      x=xmlDoc.getElementsByTagName("student");
+                      for (i = 0;i<x.length;i++){
+                          xmlTable+="<tr><td>"+x[i].getElementsByTagName("id")[0].childNodes[0].nodeValue+"</td>"+
+                          "<td>"+x[i].getElementsByTagName("firstname")[0].childNodes[0].nodeValue+"</td>"+
+                          "<td>"+x[i].getElementsByTagName("lastname")[0].childNodes[0].nodeValue+"</td>"+
+                          "<td>"+x[i].getElementsByTagName("nickname")[0].childNodes[0].nodeValue+"</td></tr>";
+                          }
+                      document.querySelector("#result").innerHTML=xmlTable;
+                 }
+         
+     </script>
+<div>
+    <button type="button" onclick="xmlLoad()">Xml List</button>
+
+    <table id="result" style="margin-top: 20px;"></table>
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "n9XkZ60jzZc/Y76x9hUvc7EGJwQQ0xT1Sie/XUJriVE=",
+  "Source": "XQueryXLinkXPointer",
+  "BasePath": "_content/XQueryXLinkXPointer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "XQueryXLinkXPointer\\wwwroot",
+      "Source": "XQueryXLinkXPointer",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XQueryXLinkXPointer\\wwwroot\\",
+      "BasePath": "_content/XQueryXLinkXPointer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XQueryXLinkXPointer\\wwwroot\\xlink.xml",
+      "SourceId": "XQueryXLinkXPointer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zeynels\\OneDrive - Provision\\Desktop\\RiderProjects\\XML\\XQueryXLinkXPointer\\wwwroot\\",
+      "BasePath": "_content/XQueryXLinkXPointer",
+      "RelativePath": "xlink.xml",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\xlink.xml"
+    }
+  ]
+}
